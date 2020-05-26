@@ -2,16 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Product from "../components/product"
+import Products from "../components/products"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Product Listings</h1>
-    <Product />
-    <Product />
-    <Product />
+    <Products />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
