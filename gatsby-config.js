@@ -5,6 +5,7 @@ module.exports = {
     author: `Francis Pham`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-stripe`,
     `gatsby-plugin-react-helmet`,
     {
